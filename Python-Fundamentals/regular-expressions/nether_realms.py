@@ -3,7 +3,7 @@ import re
 
 
 def divide_demons(demons):
-    demons = [x.strip() for x in demons.split(", ")]
+    demons = [x.strip() for x in demons.split(",")]
     return demons
 
 
