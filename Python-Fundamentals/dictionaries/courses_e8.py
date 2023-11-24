@@ -1,4 +1,4 @@
-# Courses
+# SuftUni Courses
 
 
 def courses():
