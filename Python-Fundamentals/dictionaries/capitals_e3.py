@@ -9,8 +9,9 @@ def capitals(countries, this_capitals):
     return country_capitals
 
 
-get_countries = input()
-get_capitals = input()
+if __name__ == "__main__":
+    get_countries = input()
+    get_capitals = input()
 
-for current_country, current_capital in capitals(get_countries, get_capitals).items():
-    print(f"{current_country} -> {current_capital}")
+    for current_country, current_capital in capitals(get_countries, get_capitals).items():
+        print(f"{current_country} -> {current_capital}")
