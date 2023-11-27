@@ -27,6 +27,7 @@ def order_dragons_data(dragon_data):
     return dragon_data
 
 
+# Present Data
 def display_dragons_data(dragons_data):  # Red::(160.00/2350.00/30.00)
     for dragon_type in dragons_data:
         average_damage = sum([ad[1][0] for ad in dragons_data[dragon_type]]) / len(dragons_data[dragon_type])
