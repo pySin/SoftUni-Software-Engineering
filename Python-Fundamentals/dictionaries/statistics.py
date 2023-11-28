@@ -21,6 +21,7 @@ get_statistics = statistics()
 print("Products in stock:")
 total_products = 0
 total_quantity = 0
+# Display product and quantity
 for key, value in get_statistics.items():
     total_products += 1
     total_quantity += value
