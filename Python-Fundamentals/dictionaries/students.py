@@ -26,6 +26,7 @@ def course_find(target_course):
                 print(f"{key} - {nested_key}")
 
 
+# Call Functions
 if __name__ == "__main__":
     student_records = {}
     course = add_records()
