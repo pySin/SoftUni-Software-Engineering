@@ -1,4 +1,4 @@
-# Email Validator
+# Comprehensive Tkinter Email Validator
 import re
 import tkinter as tk
 
