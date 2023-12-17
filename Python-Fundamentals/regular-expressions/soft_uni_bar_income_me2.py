@@ -4,7 +4,6 @@ import re
 
 def order_validate(order):
     pattern = r"%([A-Z][a-z]+)%[^|$%\.]*<(\w+)>[^|$%\.]*\|([0-9]+)\|[^|$%\.0-9]*([0-9]+[\.]{0,1}[0-9]*)\$"
-    # pattern = r"%([A-Z][a-z]+)%[^|$%\.]*<([A-Z][a-z]+)>[^|$%\.]*\|([0-9]+)\|[^|$%\.0-9]*([0-9\.]+)\$"
     result = re.search(pattern, order)
     if result:
         name, product, quantity, price = result.groups()
