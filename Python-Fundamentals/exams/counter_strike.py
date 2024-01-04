@@ -11,6 +11,7 @@ while command != "End of battle":
 
     distance = int(command)
 
+    # Check if energy enough
     if distance > initial_energy:
         is_energy_not_enough = True
         break
