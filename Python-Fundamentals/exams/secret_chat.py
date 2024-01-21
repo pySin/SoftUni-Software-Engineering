@@ -30,6 +30,7 @@ def change_all(concealed_message: str, instructions: list) -> str:
 def call_functions():
     concealed_message = input()
 
+    # Functions Mapper
     message_data = {
         "message": concealed_message,
         "InsertSpace": insert_space,
