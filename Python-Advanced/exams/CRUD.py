@@ -20,6 +20,7 @@ matrix = create_matrix(n)
 row, col = [int(rc) for rc in input()[1:-1].split(", ")]
 normal_sign = "."
 
+# Create movement Dictionary
 directions = {
     "up": (-1, 0),
     "down": (1, 0),
